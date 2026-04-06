@@ -68,14 +68,7 @@ bash scripts/collector-commands.sh
 
 Outputs: `nx-graph.json`, `file-churn.txt`, `import-frequency.txt`, `all-project-configs.txt`
 
-### Step 2: Compute metrics manually or with a script
-
-From the collected data, compute these values for each monorepo:
-- Average dependency depth
-- Cross-domain violation count
-- Shared lib fan-out
-- Cache hit rate per project
-- High-churn libs in critical path
+### Step 2 → Prompt 00 on Haiku
 
 ### Step 3: Run Haiku prompts (bulk, pre-demo)
 
